@@ -105,5 +105,8 @@
   },
   "devDependencies": {
     "madge": "^7.0.0"
+  },
+  "peerDependencies": {
+    "realm": "*"
   }
 }
