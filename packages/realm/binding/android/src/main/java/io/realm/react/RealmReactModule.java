@@ -76,7 +76,7 @@ class RealmReactModule extends ReactContextBaseJavaModule {
         }
 
         CallInvokerHolder jsCallInvokerHolder = reactContext.getCatalystInstance().getJSCallInvokerHolder();
-        createScheduler(jsCallInvokerHolder);
+        //createScheduler(jsCallInvokerHolder);
 
         // Get the javascript runtime and inject our native module with it
         JavaScriptContextHolder jsContext = reactContext.getJavaScriptContextHolder();
